@@ -1,6 +1,6 @@
 export default {
   appTitle: 'Note.SV',
-  subtitle: "Nobody's got to know, Just by this minute",
+  subtitle: "Encrypted and decentralized password manager and note storage",
   password: 'Passwords',
   settings: 'Settings',
   help: 'Help',
@@ -30,7 +30,7 @@ export default {
   ScanAndImportMasterWords: 'Scan QR Code of Master Code and Import',
   LockScreenPassword: 'Input Lock Screen Password',
   LockScreenPasswordAgain: 'Input Lock Screen Password again',
-  error: 'You got an Error. Try it again soon please.',
+  error: 'Error. Please try again.',
   'At least one rule for pools must be true': 'At least one rule for pools must be true',
   'Generate Password': 'Generate Password',
   'App Version': 'App Version',
@@ -92,17 +92,17 @@ export default {
   Verify: 'Verify',
   VerifyMasterWords: 'Verify Master Words',
   MasterWordsVerified: 'Master Words is verified',
-  MasterWordsFailed: 'Masteer Words is not verified, Please chceck again',
+  MasterWordsFailed: 'Master Words is not verified, Please check again',
   ChangePassword: 'Change Lockscreen Password',
   InputNewPassword: 'New Password',
   InputPasswordAgain: 'New Password (input again)',
   Done: 'Done',
   MnemonicLanguage: 'The language of Master Words',
-  PasswordFailed: 'Please check yopur password',
+  PasswordFailed: 'Please check your password',
   PasswordChanged: 'Password was changed',
   ConfirmBackup: 'Confirm Backup',
   BackupMasterWordsNow: 'Backup Master Words now',
-  SkipBackup: 'Backuped, Skip',
+  SkipBackup:  'Skip Backup',
   Withdraw: 'Withdraw Satoshi',
   RequireCorrectAddress: 'Require a correct address',
   AddressFormat: 'Format',
@@ -132,44 +132,44 @@ export default {
   NoteSV use the highest level of security technology to keep your personal data, such as passwords, bank accounts and other confidential information.
 </p>
 <p>
-All the content is encrypted using an elliptic curve asymmetric encryption algorithm, which is held in thousands of Bitcoin nodes around the world. Only you can see the contents, no one can peek. Data will never be lost due to a computer failure.
+All the content is encrypted using an elliptic curve asymmetric encryption algorithm, which is decentralized on Bitcoin nodes around the world. Only you can see the contents, no one can peek. Data will never be lost due to a computer failure.
 </p>
 <p>
-First, you need to create a master secret words and record it with a <strong> pen and paper </strong>. Master words is the only key for you to access the information, once lost and cannot be recovered, please do not take screenshots when recording master words.
+First, you need to create your recovery master words and record it with a <strong> pen and paper </strong>. The master words is the only key for you to recover your account, once lost and cannot be recovered. Please do not take screenshots when recording master words.
 </p>`,
 
   MasterWordsMessage: `<p>
-  Please use paper and pen to record the master words in order and keep them safe. Master words is the only key for you to access information, once lost and unable to recover, do not record the super password screenshot, the loss of the picture leads to data loss or theft.
+  Please use paper and pen to record the master words in order and keep them safe. Master words is the only key for you to recover your account, if lost you will be unable to recover. Do not screenshot the master words, as this can lead to data loss or theft.
 </p>`,
 
   InputMasterWordsMessage: `<p>
-  Please enter the your master words in sequence, and then click the verify button.
+  Please enter your master words in sequence, and then click the verify button.
 </p>
 `,
   BackupMessage: `<p>
-  Have you backed up the master words? If not backup will not be able to recover this account.
+  Have you backed up your master words? If not backed-up you will not be able to recover this account.
 </p>`,
   InputAddressMessage: `<p>
   Enter your BSV wallet address, or the exchange address, and double check that it is correct. Click the withdraw button and withdraw all Satoshi.
 </p>`,
   InputAddressHintMessage: `<p>
-  If you have already backed up your account, you do not need to withdraw Satoshi. The next time through the master words to restore the account can be used.
+  If you have already backed up your account, you do not need to withdraw Satoshi. On re-installation, the master words can be used to restore the account.
 </p>
 `,
   ChargeMessage: `
 <p>
-The software costs a little Satoshi to use. when you recharge $10 to account that is equivalent to writing more than 3,000 secure documents.
+The software costs a little Satoshi to use. When you recharge $10 to account that is equivalent to writing more than 3,000 secure documents.
     </p>
 
     <p>Please select the amount and method of charge</p>
 `,
   ChargeWalletMessage: `<p>
-  If you already have a BSV you can send some to the above address. If you don't have BSV, please charge by other methods.
+  If you already have BSV you can send some to the above address. If you don't have BSV, please charge by other methods.
 </p>
 `,
   PasswordError: 'Password Error.',
   ForgotPasswordTitle: 'Forgot password really?',
-  ForgotPasswordMessage: 'Please reset then import the backuped Master Words to restore system.',
+  ForgotPasswordMessage: 'Please reset then import the backed-up Master Words to restore account.',
   Cancel: 'Cancel',
   ResetSystem: 'Reset System',
   ChargeSVCafeMessage: 'SV Cafe support Wechat Pay and Alipay for charging. Please choose amount and click icon button.',
@@ -182,8 +182,8 @@ The software costs a little Satoshi to use. when you recharge $10 to account tha
   'Pick Files': 'Pick Files',
   Satoshi: ' Satoshi',
   'Dot Wallet': 'Dot Wallet',
-  ChargeDotWalletMessage: 'DotWallet is the most used worldwide BSV wallet. it provide secure and reliable digital asset management services to millions of users in more than 150 countries around the world. Please choose amount and click icon button.',
-  ChargeFails: 'Fail to charge, Please use other method',
+  ChargeDotWalletMessage: 'DotWallet is the most used worldwide BSV wallet. It provides secure and reliable digital asset management services to millions of users in more than 150 countries around the world. Please choose amount and click icon button.',
+  ChargeFails: 'Failed to charge, Please use other method',
   'checking-for-update': 'Checking for update...',
   'update-available': 'Update available. Auto Download...',
   'update-not-available': 'Update not available.',
@@ -192,7 +192,7 @@ The software costs a little Satoshi to use. when you recharge $10 to account tha
   Syncing: 'Syncing records',
   SyncFinished: 'Sync finished',
   Paymail: 'Paymail Account',
-  PaymailDesc: 'Only for your ID of NoteSV, DONT send email to this address.',
+  PaymailDesc: 'Only for your ID of NoteSV, DO NOT send email to this address.',
   NoPaymal: 'Not Set',
   NoLock: 'Never Lock',
   Online: 'Internet online',
@@ -209,8 +209,8 @@ The software costs a little Satoshi to use. when you recharge $10 to account tha
   ServiceUnavailable: 'Service is unavailable now',
   Saved: 'Saved',
   PaymailAddress: 'Paymail Address',
-  PaymailAddressMessage: 'OR, you also recharge BSV Satoshi to your Paimail address.',
-  NoPaymailAddressMessage: 'Register an account for more easy recharge',
+  PaymailAddressMessage: 'OR, you also recharge BSV Satoshi to your Paymail address.',
+  NoPaymailAddressMessage: 'Register an account for quick recharge',
   RegisterAccoun: 'Register',
   'exceed-max-total-size': 'Exceeds the max uploadable size (Total Max:{maxSize})',
   ChangePhoto: 'Change Photo',
