@@ -7,4 +7,5 @@ Please fork this repo, edit `[lang]/index.js` file, transalate words.
 Thanks you very much
 
 Best regards
+
 NoteSV Team.
